@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 100vh;
+    background: url(./img/hero-bg.jpg);
+    background-repeat: no-repeat;
+}
+body {
+    font-family: "open sans";
+}
+span {
+    color: red;
+    text-transform: uppercase;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+p {
+    color: coral;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 20px;
+}
+button {
+    margin-top: 1.5%;
+    margin-left: 10%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-color: none;
+    background-image: linear-gradient(yellow, yellow);
+    font-weight: 700;
+    border-style: hidden;
+    font-family: "open sans";
+}
+.menu li {
+    float: right;
+    margin-left: 20px;
+}
+ul {
+    list-style-type: none;
+}
+.navbar {
+        overflow: hidden;
+        background: #090909;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+      
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+      
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+        transition: .5s;
+    }
